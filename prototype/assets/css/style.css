@@ -1,0 +1,18 @@
+body {
+    background-color:#00BFFF;
+    border: 5px solid #778899;
+}
+
+header {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    text-color: #000;
+    
+}
