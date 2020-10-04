@@ -17,14 +17,13 @@ header{
 p{
     text-align: center;
     padding: 10px;
-    margin:auto;
+    margin: 10px;
 }
 
 h2{
     text-align: center;
-    background-color: #778899
+    background-color: #778899;
     border: 2px solid #778899;
-    width: 50%;
     margin:auto;
 }
 
@@ -46,10 +45,9 @@ footer{
 nav {
     padding: 10px;
     border: 2px solid #778899;
-    width: 50%;
     margin:auto;
     text-align:center;
 }
 #container{
-    
+   padding: 10px; 
 }
