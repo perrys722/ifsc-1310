@@ -12,9 +12,9 @@ header{
 }
 nav{
     padding: 10px;
-    border: 2px solid #778899;
-    width: 50%;
+    border: 3px solid #778899;
     margin:auto;
+    width: 25%;
     text-align:center;
 }
 
