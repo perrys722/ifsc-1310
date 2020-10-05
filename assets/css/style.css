@@ -1,6 +1,6 @@
 body {
     background-color:#00BFFF;
-    border: 5px solid #778899;
+    padding: 15px;
 }
 
 header{
@@ -17,4 +17,13 @@ nav{
     text-align:center;
 }
 
+h2{
+    padding: 10px;
+    
+}
 
+#container{
+    padding: 10px;
+    background-color: white;
+    border: 5px solid black;
+}
