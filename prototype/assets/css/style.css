@@ -1,6 +1,5 @@
 body{
     background-color:#00BFFF;
-    border: 5px solid #778899;
     padding: 20px;
     
 }
@@ -49,5 +48,7 @@ nav {
     text-align:center;
 }
 #container{
-   padding: 10px; 
+    padding: 10px;
+    background-color: white;
+    border: 5px solid black;
 }
