@@ -47,3 +47,68 @@ header.primary h1 a{
     text-decoration:none;
     color:#fff;
 }
+
+header.primary h2{
+    font-size:2rem;
+    /*     Top | L/R | Bottom */
+    margin:20px auto 40px;
+}
+
+header.primary nav{
+    width: 80vw;
+    margin:auto;
+}
+
+header.primary nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:0;
+}
+
+header.primary nav ul li{
+    list-style-type:none;
+    padding:10px;
+}
+
+header.primary nav ul li a:link, header.primary nav ul li a:visited{
+    color:#fff;
+    text-decoration:none;
+    background-color:#000;
+    background-color:rgba(0,0,0,.4);
+    padding:8px 16px;
+    border-radius:20px;
+    transition:.5s;
+    
+}
+
+header.primary nav ul li a:hover, header.primary nav ul li a:active{
+    background-color:rgba(0,0,0,.6)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:680px){
+
+    header.primary nav ul{
+        flex-direction:column;
+        max-width:400px;
+        margin:0 auto;;
+    }
+    
+    header.primary nav a{
+        display:block;
+    }
+    
+}
