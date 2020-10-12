@@ -14,6 +14,14 @@ html {
   font-family: 'PT Sans', sans-serif;
 }
 
+/* ---------------Utility Styles----------------- */
+
+.container{
+    width:80vw;
+    margin:40px auto;
+    max-width:900px;
+}
+
 /* ---------------Global Styles----------------- */
 body{
     font-family: 'PT Sans', sans-serif;
@@ -56,6 +64,7 @@ header.primary h2{
 
 header.primary nav{
     width: 80vw;
+    max-width:900px;
     margin:auto;
 }
 
