@@ -1,3 +1,7 @@
+/* ---------------Color Scheme--------------- */
+/*   #1E9CB3 #5EE7FF #46E2FF #B3580C #FF9945  */
+
+
 /* ---------------Box Sizing----------------- */
 
 html {
@@ -17,14 +21,29 @@ body{
 }
 
 header.primary{
-    background-color:#00BFFF;
+    background-color:#46E2FF;
     text-align:center;
     color:#fff;
-    /* text-shadow: 2px 2px 20px #000; */
+    text-shadow: 2px 2px 20px #000;
     /* Longform */
     padding-top:40px;
     padding-right:40px;
     padding-bottom:20px;
     padding-left:40px;
     
+    /* Shorthand (T,B), (L,R)*/
+    padding: 20px 40px;
+    
+    /* Shorthand T,R,B,L*/
+    padding: 40px 40px 20px 40px;
+}
+
+header.primary h1{
+    font-size:3.2rem;
+    margin:20px 0;
+}
+
+header.primary h1 a{
+    text-decoration:none;
+    color:#fff;
 }
