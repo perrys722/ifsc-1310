@@ -1,3 +1,8 @@
+/* --------------Course homepage------------- */
+/* ---------------Color Scheme--------------- */
+/*   #1E9CB3 #5EE7FF #46E2FF #B3580C #FF9945  */
+
+
 /* ---------------Box Sizing----------------- */
 
 html {
@@ -10,32 +15,57 @@ html {
   font-family: 'PT Sans', sans-serif;
 }
 
+/* ---------------Utility Styles----------------- */
+
+.container{
+    width:80vw;
+    margin:40px auto;
+    max-width:900px;
+}
+
 /* ---------------Global Styles----------------- */
+
 body{
     font-family: 'PT Sans', sans-serif;
     margin:0;
 }
 
+
 header.primary{
     background-color:#46E2FF;
     text-align:center;
     color:#fff;
+    margin:0;
+    padding: 20px 40px;
     /* text-shadow: 2px 2px 20px #000; */
 }
+
+header.primary h1{
+    color: #FF9945;
+    font-size:3.2rem;
+    margin:20px 0;
+    text-shadow: 2px 2px 10px #000;
+}
+
+
+
+
+h2{
+    padding: 10px;
+    margin: auto;
+}
+
+ul h2{
+    color:#1E9CB3;
+}
+
+h2 a{
+    text-decoration:none;
+}
+
 nav{
     padding: 10px;
     border: 3px solid #778899;
     margin:auto;
     text-align:center;
-}
-
-h2{
-    padding: 10px;
-    
-}
-
-#container{
-    padding: 10px;
-    background-color: white;
-    border: 5px solid black;
 }
