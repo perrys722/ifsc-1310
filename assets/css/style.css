@@ -34,38 +34,54 @@ body{
 header.primary{
     background-color:#46E2FF;
     text-align:center;
-    color:#fff;
     margin:0;
     padding: 20px 40px;
     /* text-shadow: 2px 2px 20px #000; */
 }
 
 header.primary h1{
-    color: #FF9945;
+    color: #fff;
     font-size:3.2rem;
     margin:20px 0;
     text-shadow: 2px 2px 10px #000;
 }
 
-
-
-
-h2{
-    padding: 10px;
-    margin: auto;
-}
-
-ul h2{
-    color:#1E9CB3;
-}
-
-h2 a{
-    text-decoration:none;
-}
-
-nav{
-    padding: 10px;
-    border: 3px solid #778899;
-    margin:auto;
+#assignments{
     text-align:center;
 }
+
+#assignments ul{
+    margin:auto;
+    border: 2px solid #000;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    list-style-type:none;
+    transition: .5s;
+    width:50%;
+    
+}
+
+#assignments h2{
+    font-size:2em;
+    margin: auto;
+    color:#FF9945;
+}
+
+#assignments ul li{
+    padding:20px;
+}
+
+#assignments ul li a{
+    background-color:#1E9CB3;
+    text-decoration:none;
+    color:#fff;
+    border-radius:8px;
+    padding: 10px 2em;
+}
+
+#assignments a:hover{
+    color:#5EE7FF;
+}
+
+

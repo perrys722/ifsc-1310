@@ -23,6 +23,13 @@ html {
     max-width:900px;
 }
 
+/* -------------Responsive Images--------------- */
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
 /* ---------------Global Styles----------------- */
 body{
     font-family: 'PT Sans', sans-serif;
@@ -94,6 +101,54 @@ header.primary nav ul li a:link, header.primary nav ul li a:visited{
 
 header.primary nav ul li a:hover, header.primary nav ul li a:active{
     background-color:rgba(0,0,0,.6)
+}
+
+#intro{
+    border-bottom:1px solid #B3580C;
+    padding-bottom:1.5em;
+}
+
+#intro p{
+    line-height:1.5em;
+}
+
+#intro h2{
+    color:#FF9945;
+}
+
+#content{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#content article.post{
+    width:30%;
+    box-shadow:0 4px 8px rgba(0,0,0, .4);
+    padding:10px;
+    transition: .5s;    
+}
+
+#content article.post:hover{
+    box-shadow:0 4px 16px rgba(0,0,0, .6);
+}
+
+#content.post figure{
+    margin:0;
+}
+
+#content article time, #content article figcaption, #content article footer{
+    font-size:1rem;
+    text-transform:uppercase;
+    color:#1E9CB3;
+}
+
+#content article img{
+    border-radius:5px;
+}
+
+.post a:link,.post a:visited{
+    color:#B3580C;
 }
 
 
