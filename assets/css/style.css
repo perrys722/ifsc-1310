@@ -52,7 +52,7 @@ header.primary h1{
 
 #assignments ul{
     margin:auto;
-    border: 2px solid #000;
+    box-shadow:0 4px 8px rgba(0,0,0, .4);
     padding:10px;
     display:flex;
     flex-direction:column;
