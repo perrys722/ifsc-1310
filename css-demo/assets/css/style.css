@@ -52,6 +52,7 @@ img{
 }
 
 /* ---------------Global Styles----------------- */
+
 body{
     font-family: 'PT Sans', sans-serif;
     margin:0;
@@ -210,7 +211,7 @@ aside article footer{
 }
 
 footer#colophon{
-    background-color:#FF9945;
+    background-color:#5d6475;
 }
 
 #colophon h6{
