@@ -152,8 +152,8 @@ header.primary nav ul li a:hover, header.primary nav ul li a:active{
 
 #articles article img{
     border-radius:4px;
-    height:200px;
-    width:200px;
+    height:auto;
+    width:300px;
 }
 
 .post a:link,.post a:visited{
